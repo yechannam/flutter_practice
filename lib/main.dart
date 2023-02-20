@@ -132,7 +132,7 @@ class App extends StatelessWidget {
                   offset: const Offset(0, -62),
                   child: const Mycard(
                     name: 'Bitcoin',
-                    num: '1 293',
+                    num: '0 125',
                     code: 'BIT',
                     icon: Icons.currency_bitcoin,
                     isdark: true,
