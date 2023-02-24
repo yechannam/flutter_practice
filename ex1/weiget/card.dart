@@ -1,5 +1,27 @@
 import 'package:flutter/material.dart';
 
+class CardJen extends StatefulWidget {
+  const CardJen({super.key});
+
+  @override
+  State<CardJen> createState() => _CardJenState();
+}
+
+class _CardJenState extends State<CardJen> {
+  int count = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text('hello world'),
+        ),
+      ),
+    );
+  }
+}
+
 class Mycard extends StatelessWidget {
   final String name, num, code;
   final IconData icon;
